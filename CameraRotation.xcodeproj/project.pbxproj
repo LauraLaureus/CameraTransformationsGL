@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		27B6B1101CA91E25009679B6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 27B6B10D1CA91E25009679B6 /* main.c */; };
-		27B6B1111CA91E25009679B6 /* View.c in Sources */ = {isa = PBXBuildFile; fileRef = 27B6B10E1CA91E25009679B6 /* View.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,8 +25,6 @@
 /* Begin PBXFileReference section */
 		27B6B1031CA91DFC009679B6 /* CameraRotation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CameraRotation; sourceTree = BUILT_PRODUCTS_DIR; };
 		27B6B10D1CA91E25009679B6 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		27B6B10E1CA91E25009679B6 /* View.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = View.c; sourceTree = "<group>"; };
-		27B6B10F1CA91E25009679B6 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				27B6B10D1CA91E25009679B6 /* main.c */,
-				27B6B10E1CA91E25009679B6 /* View.c */,
-				27B6B10F1CA91E25009679B6 /* View.h */,
 			);
 			path = CameraRotation;
 			sourceTree = "<group>";
@@ -123,7 +118,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27B6B1111CA91E25009679B6 /* View.c in Sources */,
 				27B6B1101CA91E25009679B6 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

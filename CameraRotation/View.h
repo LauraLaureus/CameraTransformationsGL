@@ -11,12 +11,16 @@
 
 #include <stdio.h>
 #include <GLUT/GLUT.h>
+#include <math.h>
+#define _USE_MATH_DEFINES
 
 #endif /* View_h */
 
 #ifndef GLOBAL_VARS_VIEW
 extern float gl_ancho , gl_alto, gl_cerca, gl_lejos; //cambiar según el proyecto
 extern int w_ancho, w_alto;
+extern float gl_fovy, gl_center;
+extern double theta, phi, radio;
 
 #endif
 
@@ -24,4 +28,5 @@ extern int w_ancho, w_alto;
 void InitGL();
 void ReshapeSize(int ancho, int alto);
 void Display();
+void MousePosition(int x, int y);
 #endif
